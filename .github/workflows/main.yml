@@ -16,7 +16,12 @@ jobs:
     - name: Compile
       run: make
 
+    # - uses: actions/upload-artifact@v3
+    #   with:
+    #     name: examples
+    #     path: examples/*.pdf
+
     - uses: actions/upload-artifact@v3
       with:
-        name: examples
-        path: examples/*.pdf
+        name: resume
+        path: resume/*.pdf
