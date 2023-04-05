@@ -23,5 +23,5 @@ jobs:
 
     - uses: actions/upload-artifact@v3
       with:
-        name: resume
+        name: situ2001's resume
         path: resume/*.pdf
