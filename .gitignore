@@ -24,3 +24,6 @@
 ### TeX Workshop
 *.synctex.gz
 *.synctex(busy)
+
+### PDFs
+*.pdf
