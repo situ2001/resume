@@ -16,6 +16,7 @@ jobs:
       uses: xu-cheng/latex-action@v2
       with:
         root_file: resume/situ2001.tex
+        latexmk_use_xelatex: true
 
     # - uses: actions/upload-artifact@v3
     #   with:
